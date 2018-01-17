@@ -1,16 +1,15 @@
 <!--
  * 4PSA VoipNow App Click2Fax
  *  
- * This is the index file of the Click2Fax application. It will
- * read the configuration file variables and display a button that,
- * when clicked, will open a pop-up window with the actual form
+ * This is the index file of the Click2Fax application.
+ * It will read the configuration file variables and display a button that, when clicked,
+ * will open a pop-up window with the actual form
  *
  * @version 2.0.0
  * @license released under GNU General Public License
- * @copyright (c) 2012 4PSA. (www.4psa.com). All rights reserved.
+ * @copyright (c) 2017 4PSA. (www.4psa.com). All rights reserved.
  * @link http://wiki.4psa.com
 -->
-
 <?php
 require_once('config/config.php');
 require_once('language/en.php');
@@ -31,21 +30,23 @@ require_once('language/en.php');
 			$().ready(function() {
 				$('#click2fax').click(function() {
 					$('#popup').bPopup({
-						content:'iframe',
-						loadUrl:'sendFax.php',
+						content: 'iframe',
+						loadUrl: 'sendFax.php',
 						amsl: 0,
 						modalClose: false
 					});
 					
-					var ifr = $('iframe')[0];
-					ifr.style.height = "260px";
+					var iframe = $('iframe')[0];
+                    iframe.style.height = "260px";
 				});
 			});
 		</script>
 	</head>
 	<body>
 		<div class="button">
-			<button id="click2fax" type="button" title="Click2Fax"><?php echo $msgArr['btn_click2fax']; ?></button>
+			<button id="click2fax" type="button" title="Click2Fax">
+                <?php echo $msgArr['btn_click2fax']; ?>
+            </button>
 		</div>
 		<div id="popup"></div>
 	</body>

@@ -13,7 +13,7 @@ This demonstrative code should not be used in production.
 
 ### License
 
-Copyrights (c) 2013-2015, 4PSA. All rights reserved.
+Copyrights (c) 2013-2017, 4PSA. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:

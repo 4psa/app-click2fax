@@ -6,7 +6,7 @@
  *
  * @version 2.0.0
  * @license released under GNU General Public License
- * @copyright (c) 2012 4PSA. (www.4psa.com). All rights reserved.
+ * @copyright (c) 2017 4PSA. (www.4psa.com). All rights reserved.
  * @link http://wiki.4psa.com
 */
 $msgArr = array();
@@ -23,4 +23,3 @@ $msgArr['label_number'] = 'Subject:';
 $msgArr['label_attach'] = 'Attach file:';
 $msgArr['label_body'] = 'Body:';
 $msgArr['help_msg'] = 'Please fill in the information below to send a fax with an attachment.';
-?>

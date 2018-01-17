@@ -8,7 +8,7 @@
  *
  * @version 2.0.0
  * @license released under GNU General Public License
- * @copyright (c) 2012 4PSA. (www.4psa.com). All rights reserved.
+ * @copyright (c) 2017 4PSA. (www.4psa.com). All rights reserved.
  * @link http://wiki.4psa.com
 */
 
@@ -38,5 +38,3 @@ $config['OAUTH_APP_ID'] = 'CHANGEME';
  * @global string
  */
 $config['OAUTH_APP_SECRET'] = 'CHANGEME';
-
-?>
